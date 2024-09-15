@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font: 15px Arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 600px;
+    text-align: center;
+    line-height: 45px;
+}
+
+#botao{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background: #dc4b4b;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    color: #ffff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#botao:hover{
+    background: rgb(168, 72, 72);
+}
+
+#numCliques{
+    font-weight: bold;
+    font-size: 24px;
+    user-select: none;
+    margin-bottom: 30px;
+}
+
+.conquista{
+    padding: 15px;
+    margin: 8px;
+    background: #d0d0d0;
+    border-radius: 4px;
+    box-shadow: 3px 3px gray;
+    font-weight: bold;
+    font-size: 14.5px;
+    cursor: default;
+    user-select: none;
+    line-height: 23px;
+}
+
+#sub-texto1, #sub-texto2, #sub-texto3{
+    display: none;
+    color: #168223;
+}
+
+#texto-jogo-concluido{
+    display: none;
+    line-height: 23px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 790px){
+    .container{
+        margin: 20px;
+    }
+}
